@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-function Home() {
+const Home = () => {
   return (
     <div>
       <h1>Hello World!</h1>
