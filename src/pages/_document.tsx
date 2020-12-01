@@ -34,6 +34,11 @@ export default class MyDocument extends Document {
         <Head>
           <meta charSet="utf-8"/>
           <title>André Yuri</title>
+
+          <link
+            href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap"
+            rel="stylesheet"
+          />
         </Head>
 
         <body>
