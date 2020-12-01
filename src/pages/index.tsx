@@ -1,14 +1,12 @@
 import Link from 'next/link';
+import { Container } from '../styles/pages/Home';
 
-const Home = () => {
+const Home: React.FC = () => {
   return (
-    <div>
-      <h1>Hello World!</h1>
-
-      <Link href="/sobre">
-        <a>Acessar página Sobre</a>
-      </Link>
-    </div>
+    <Container>
+      <h1>André Yuri</h1>
+      <p>Um desenvolvedor curioso.</p>
+    </Container>
   )
 }
 
